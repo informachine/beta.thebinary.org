@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://www.thebinary.org</loc>
-	<lastmod>2022-07-08</lastmod>
+	<lastmod>2022-07-10</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -72,7 +72,7 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/support/</loc>
-	<lastmod>2022-07-08</lastmod>
+	<lastmod>2022-07-10</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -142,7 +142,7 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/test/</loc>
-	<lastmod>2022-07-08</lastmod>
+	<lastmod>2022-07-10</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -212,7 +212,7 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/frontpage/</loc>
-	<lastmod>2022-07-08</lastmod>
+	<lastmod>2022-07-10</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -230,7 +230,7 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/article/</loc>
-	<lastmod>2022-07-08</lastmod>
+	<lastmod>2022-07-10</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -238,17 +238,17 @@
 	<image:title>logo</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_logo_64_64.png</image:loc>
+	<image:loc>https://www.thebinary.org/img/afcd25bb-c030-46da-9888-e3fd18607153.jpeg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_logo_64_64.png</image:loc>
+	<image:loc>https://www.thebinary.org/img/afcd25bb-c030-46da-9888-e3fd18607153.jpeg</image:loc>
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
 <url>
 	<loc>https://www.thebinary.org/archives/</loc>
-	<lastmod>2022-07-08</lastmod>
+	<lastmod>2022-07-10</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
