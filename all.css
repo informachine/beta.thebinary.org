@@ -336,6 +336,9 @@ button{
 	outline: none!important;
 }
 
+.btn-sq{
+	border-radius: 0px;
+}
 .btn-wire{
 	background:transparent!important;
 	border:2px solid transparent;
@@ -849,6 +852,23 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h-385px-link:hover{
 	text-decoration:none;
 }
+.but-donation-amount{
+	font-family:"NotoSansMono-Regular";
+	text-decoration:none;
+	color:#220A3E!important;
+	font-size:13px;
+	font-weight:bold;
+	width:100px;
+	margin:20px 20px 20px 20px;
+	padding:20px 20px 20px 20px;
+}
+.but-donation-amount:hover{
+	text-decoration:none;
+	font-size:13px;
+	font-family:"NotoSansMono-Regular";
+	font-weight:bold;
+	background-color:#FEFFFF;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -931,6 +951,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .wire-btn-fuchsia{
 	color:#F900FF!important;
 	border-color:#F900FF!important;
+}
+.wire-btn-fuchsia-2{
+	color:#FF00FF!important;
+	border-color:#FF00FF!important;
 }
 
 /* Link colour styles */
