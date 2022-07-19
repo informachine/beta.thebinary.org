@@ -767,7 +767,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-decoration:none;
 }
 .h6-menubar-style:hover{
-	text-decoration:underline!important;
+	text-decoration:none;
 }
 .h6-style-lang{
 	font-family:"NotoSansMono-Regular";
@@ -1049,6 +1049,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"NotoSansMono-Regular";
 	font-weight:bold;
 	background-color:#FEFFFF;
+}
+.h4-menubar-style{
+	font-family:"NotoSerifDisplay-Regular";
+	font-size:24px;
+	text-decoration:none;
+	color:#000000!important;
+}
+.h4-menubar-style:hover{
+	text-decoration:none;
 }
 
 /* = Colour
