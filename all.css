@@ -161,6 +161,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	-o-background-size: auto!important;
 	background-size: auto!important;
 }
+.bg-t-edge{
+	background-position: top!important;
+	background-repeat: no-repeat;
+}
 .bg-b-edge{
 	background-position: bottom!important;
 	background-repeat: no-repeat;
@@ -712,7 +716,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .p-33166-style{
 	font-family:"NotoSansMono-Regular";
-	font-size:13px;
+	font-size:11px;
+	line-height:13px;
 }
 .h6-20-style{
 	font-family:"NotoSansMono-Regular";
@@ -911,6 +916,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h5-361-style{
 	font-size:16px;
+	color:transparent!important;
 }
 .h5-360-style{
 	font-size:16px;
@@ -1058,6 +1064,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h4-menubar-style:hover{
 	text-decoration:none;
+}
+.h5-361-style-descr{
+	font-size:16px;
+	color:#FF00FF!important;
 }
 
 /* = Colour
