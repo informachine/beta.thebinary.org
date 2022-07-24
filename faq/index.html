@@ -19,7 +19,7 @@
 	<meta property="fb:app_id" content="573935960886128">
     <link rel="shortcut icon" type="image/png" href="../favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="../all.css?4334">
+	<link rel="stylesheet" type="text/css" href="../all.css?9728">
 	
     <title>FAQ</title>
 
@@ -102,6 +102,49 @@
 	color:white;
 	}
 	</style>
+	
+	<!-- FAQ Javascript -->
+	<script>
+	 $(document).ready(function() {
+	 
+	    $('.faq_question').click(function() {
+	 
+	        if ($(this).parent().is('.open')){
+	            $(this).closest('.faq').find('.faq_answer_container').animate({'height':'0'},500);
+	            $(this).closest('.faq').removeClass('open');
+	 
+	            }else{
+	                var newHeight =$(this).closest('.faq').find('.faq_answer').height() +'px';
+	                $(this).closest('.faq').find('.faq_answer_container').animate({'height':newHeight},500);
+	                $(this).closest('.faq').addClass('open');
+	            }
+	    });
+	});
+	</script>
+	  
+	<!-- FAQ CSS -->
+	<style>
+	 
+	/*FAQS*/
+	.faq_question {
+		margin: 0px;
+		padding: 10px 0px 5px 0px;
+		font-family:'NotoSerifDisplay-Regular';
+		color: #220A3E;
+		display: inline-block;
+		cursor: pointer;
+		font-weight: normal;
+	}
+ 
+	.faq_answer_container {
+		height: 0px;
+		font-family:'NotoSerifDisplay-Regular';
+		color: #220A3E;
+		font-size: 13px;
+		overflow: hidden;
+		padding: -5px 0px 10px 0px;
+	}
+	</style>
     
 <!-- Analytics -->
 <script>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"inbox@thebinary.org",utcoffset:"3"}))};sessionStorage.setItem("_swa","1");</script>
@@ -131,8 +174,17 @@
 					</div>
 					<div class="col">
 						<h6 class="mg-md tc-dark-jungle-green h6-bloc-menubar-style">
+							<a class="ltc-dark-jungle-green h6-menubar-style" href="../podcasts/">....PODCASTS..ΕΚΠΟΜΠΕΣ....</a><br>
+						</h6>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<h6 class="mg-md tc-dark-jungle-green h6-bloc-menubar-style">
 							<a class="ltc-dark-jungle-green h6-menubar-style" href="../archives/">....ARCHIVES..ΑΡΧΕΙΟ....</a><br>
 						</h6>
+					</div>
+					<div class="col">
 					</div>
 				</div>
 				<h4 class="mg-md tc-dark-jungle-green">
@@ -170,19 +222,7 @@
 					</div>
 					<div class="col">
 						<h6 class="mg-md tc-dark-jungle-green h6-bloc-menubar-style">
-							<a class="ltc-dark-jungle-green h6-menubar-style" href="../vision/">....VISION..ΟΡΑΜΑ....</a><br>
-						</h6>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col">
-						<h6 class="mg-md tc-dark-jungle-green h6-bloc-menubar-style">
 							<a class="ltc-dark-jungle-green h6-menubar-style" href="../membership/">....MEMBERSHIP..ΣΥΜΜΕΤΟΧΗ....</a><br>
-						</h6>
-					</div>
-					<div class="col">
-						<h6 class="mg-md tc-dark-jungle-green h6-bloc-menubar-style">
-							<a class="ltc-dark-jungle-green h6-menubar-style" href="../declaration/">....DECLARATION..ΔΙΑΚΗΡΥΞΗ....</a><br>
 						</h6>
 					</div>
 				</div>
@@ -239,7 +279,7 @@
 		<div class="row voffset-clear-md">
 			<div class="col bgc-white">
 				<h1 class="mg-md tc-dark-jungle-green-2">
-					....FAQs..Συχνές Ερωτήσεις....<br>
+					....FAQs..ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ....<br>
 				</h1>
 			</div>
 			<div class="col">
@@ -258,7 +298,7 @@
 		<div class="row voffset-clear-md">
 				<div class="col bgc-white">
 					<h1 class="mg-md tc-dark-jungle-green-2">
-						....The <strike>last</strike> frontier..Τo <strike>τελικό</strike> σύνορο....
+						....A question is one-half of wisdom..Η ερώτηση είναι το ήμιση της σοφίας....
 					</h1>
 					<p class="mg-md tc-dark-jungle-green-2">
 						....Regardless the case, one small step for you is one giant leap for mankind..Ανεξάρτητα από το είδος του ερωτήματος, ένα μικρό βήμα για εσένα είναι ένα τεράστιο άλμα για την ανθρωπότητα ....
@@ -326,7 +366,7 @@
 		<div class="row voffset-clear-md">
 				<div class="col bgc-white">
 					<h3 class="mg-md tc-dark-jungle-green-2">
-						....Inquiries..Πληροφορίες....
+						....Questions..Ερωτήσεις....
 					</h3>
 				</div>
 			</div>
@@ -338,112 +378,95 @@
 					<p class="mg-md tc-dark-jungle-green-2 p-594-style">
 						....Supporting us with a donation, of any amount, means you are helping to safeguard our digital rights act and long-term sustainability. ..Η υποστήριξη με μια δωρεά, οποιουδήποτε ύψους, σημαίνει ότι συμβάλλετε στη διαφύλαξη των ενεργειών μας για τα ψηφιακά δικαιώματα και τη μακροπρόθεσμη βιωσιμότητα μας. ....
 					</p>
-					<h5 class="mg-md tc-dark-jungle-green-2 h5-314-style">
-						....Complaints.. Παράπονα....
-					</h5>
-					<p class="mg-md tc-dark-jungle-green-2 p-595-style">
-						....Our staff can comment on and write about privacy and free speech issues, particularly surveillance, data protection, copyright and website blocking. We can also connect journalists with members of our Advisory Council, and Board of Directors, who have expertise in a wide range of digital rights and technology issues. ..Οι άνθρωποί μας μπορούν να σχολιάσουν και να γράψουν για ζητήματα απορρήτου και ελευθερίας του λόγου, ιδιαίτερα την επιτήρηση, την προστασία δεδομένων, τα πνευματικά δικαιώματα και τον ψηφιακό αποκλεισμό. Μπορούμε επίσης να συνδέσουμε δημοσιογράφους με μέλη του Γνωμοδοτικού και του Διοικητικού Συμβουλίου μας, τα οποία έχουν εξειδίκευση σε ένα ευρύ φάσμα θεμάτων ψηφιακών δικαιωμάτων και τεχνολογίας. ....
-					</p>
-					<p class="mg-md tc-dark-jungle-green-2 p-595-style">
-						....Whether you&rsquo;d like to interview us, write about us or work with us, please first contact us on inbox@thebinary.org. ..Είτε θέλετε να μας πάρετε συνέντευξη, να γράψετε για εμάς ή να συνεργαστείτε μαζί μας, επικοινωνήστε πρώτα μαζί μας στο inbox@thebinary.org ....
-					</p><a href="../article/"></a>
-				</div>
-				<div class="col bgc-white text-lg-center text-sm-center text-center">
-					<form data-clean-url-used="true" id="form_30705" data-form-type="blocs-form" action="https://api.staticforms.xyz/submit" method="POST">
-						<div class="form-group mb-3">
-							<h6 class="mg-md text-lg-start label-style tc-fuchsia-2">
-								....Name..Όνομα....
-							</h6>
-							<input id="name_30705" class="form-control label-style" required name="name" />
-						</div>
-						<div class="form-group mb-3">
-							<h6 class="mg-md text-lg-start label-style tc-fuchsia-2">
-								....Email..Διεύθυνση email....
-							</h6>
-							<input id="email_30705" class="form-control label-style" type="email" data-error-validation-msg="....The address is not valid..Η διεύθυνση δεν είναι έγκυρη...." required name="email" />
-						</div>
-						<div class="form-group mb-3">
-							<h6 class="mg-md text-lg-start label-style tc-fuchsia-2">
-								....Message..Μήνυμα....
-							</h6><textarea id="message_30705" class="form-control label-style" rows="3" cols="50" required name="message"></textarea>
-							<div class="form-group mb-3">
-								<input class="form-control" type="hidden" id="input_1556_30705" name="accessKey" value="d7be7a10-107f-4d5c-8716-5817d105c486" />
-							</div>
-							<div class="form-group mb-3">
-								<input class="form-control" type="hidden" id="input_1556_30705" value="https://www.thebinary.org/contact/" name="redirectTo" />
-							</div>
-							<div class="form-group mb-3">
-								<input class="form-control" type="hidden" id="input_1556_30705" value="@" name="replyTo" />
-							</div>
-							<div class="form-group mb-3">
-								<input class="form-control" type="hidden" id="input_1556_30705" name="honeypot" />
-							</div>
-						</div> 
-						<button class="bloc-button btn btn-lg btn-wire wire-btn-fuchsia-2 but-form btn-sq" type="submit">
-							....Submit..Αποστολή....
-						</button>
-					</form>
-				</div>
-			</div>
-		<div class="row voffset-clear-md">
-				<div class="col bgc-white">
-					<h3 class="mg-md tc-dark-jungle-green-2">
-						....Press..Τύπος....
-					</h3>
-				</div>
-			</div>
-		<div class="row voffset-clear-md">
-				<div class="col bgc-white">
-					<h5 class="mg-md tc-dark-jungle-green-2 h5-315-style">
-						....Time is even more valuable..Ο χρόνος είναι εξίσου πολύτιμος....
-					</h5>
-					<p class="mg-md tc-dark-jungle-green-2 p-596-style">
-						....As a non profit, we rely greatly on volunteers to undertake our research, public engagement and campaigning work. We encourage people with relevant interests and skills to jump in and become a closer part of our team..Ως μη κερδοσκοπικός οργανισμός, βασιζόμαστε σε μεγάλο βαθμό σε εθελοντές για να αναλάβουμε το ερευνητικό μας έργο, τη δημόσια συμμετοχή και τις εκστρατείες μας. Ενθαρρύνουμε άτομα με ενδιαφέροντα και δεξιότητες σχετικές με τα ψηφιακά δικαιώματα να μπουν και να γίνουν πιο στενό μέρος της ομάδας μας....
-					</p>
-					<p class="mg-md tc-dark-jungle-green-2 p-597-style">
-						....As a volunteer, you won&rsquo;t be making coffee or doing the photocopying. Instead we like to work with individuals to give them ownership over a piece of our work. This might mean you take over responsibility of running our social media channels, or produce a research or policy paper, or develop key resources for one of our campaigns. Volunteers are treated as full members of the team, and play a meaningful role in our day to day work. ..Ως εθελοντής, δεν θα φτιάχνετε καφέ ή θα κάνετε τη φωτοτυπία. Αντίθετα, μας αρέσει να συνεργαζόμαστε με άτομα για να τους δώσουμε την κυριότητα σε ένα κομμάτι της δουλειάς μας. Αυτό μπορεί να σημαίνει ότι αναλαμβάνετε την ευθύνη της διαχείρισης των καναλιών μας στα μέσα κοινωνικής δικτύωσης, ή την παραγωγή μιας έρευνας ή πολιτικής πολιτικής ή την ανάπτυξη βασικών πόρων για μία από τις καμπάνιες μας. Οι εθελοντές αντιμετωπίζονται ως πλήρη μέλη της ομάδας και παίζουν σημαντικό ρόλο στην καθημερινή μας εργασία....
-					</p>
-				</div>
-				<div class="col bgc-white">
-					<h5 class="mg-md tc-dark-jungle-green-2 h5-316-style">
-						....What we&rsquo;re looking for in volunteers..Αυτό που κοιτάζουμε στους εθελοντές μας....
-					</h5>
-					<p class="mg-md tc-dark-jungle-green-2 p-598-style">
-						....Volunteers will assist the core team, who are based in several locations across European Union. We do not have a physical office space for all volunteers and so expect all members of the team to operate independently and remotely. We ask that you commit to a minimum of 2 days per week for 6 months, to assist on a specific project, campaign or issue. However, based on your personal, academic and/or professional commitments, we are flexible about this. ..Οι εθελοντές θα βοηθήσουν τη βασική ομάδα, η οποία εδρεύει σε διάφορες τοποθεσίες της Ευρωπαϊκής Ένωσης. Δεν έχουμε φυσικό χώρο γραφείου για το σύνολο των εθελοντών και επομένως περιμένουμε όλα τα μέλη της ομάδας να λειτουργούν ανεξάρτητα και εξ αποστάσεως. Σας ζητάμε να δεσμευτείτε για τουλάχιστον 2 ημέρες την εβδομάδα για 6 μήνες, για να βοηθήσετε σε ένα συγκεκριμένο έργο, καμπάνια ή θέμα. Ωστόσο, με βάση τις προσωπικές, ακαδημαϊκές ή/και επαγγελματικές σας δεσμεύσεις, είμαστε ευέλικτοι ως προς αυτό. ....
-					</p>
-					<p class="mg-md tc-dark-jungle-green-2 p-599-style">
-						....Please take a look at our current work as displayed on our website to get a sense of our current work before applying. We are interested in hearing from individuals with diverse academic, cultural and professional backgrounds. ..Αναφερθείτε στην τρέχουσα εργασία μας όπως εμφανίζεται στον ιστότοπό μας για να κατανοήσετε την τρέχουσα εργασία μας πριν υποβάλετε αίτηση. Μας ενδιαφέρει να ακούμε άτομα με διαφορετικά ακαδημαϊκά, πολιτιστικά και επαγγελματικά υπόβαθρα. ....
-					</p>
-				</div>
-			</div>
-		<div class="row voffset-clear-md">
-				<div class="col bgc-white">
 					<div >
-						<br><br>
+						<div class="faq_container">
+    <div class="faq">
+       <div class="faq_question">....What are digital rights?..Τί είναι τα ψηφιακά δικαιώματα;....</div>
+            <div class="faq_answer_container">
+               <div class="faq_answer">.... Digital rights are an extension of human rights for the digital era. The rights to online privacy, the protection of personal data, access to information and freedom of expression, are really extensions of the equal and inalienable rights laid out in the United Nation&rsquo;s Universal Declaration of Human Rights. ..Τα ψηφιακά δικαιώματα αποτελούν επέκταση των ανθρωπίνων δικαιωμάτων για την ψηφιακή εποχή. H ιδιωτικότητα, το απόρρητο, η προστασία των προσωπικών δεδομένων, η πρόσβαση σε πληροφορίες και η ελευθερία της έκφρασης, είναι προεκτάσεις των δικαιωμάτων που ορίζονται στην Οικουμενική Διακήρυξη των Ανθρωπίνων Δικαιωμάτων των Ηνωμένων Εθνών. ....</div>
+            </div>        
+     </div>
+    <div class="faq">
+       <div class="faq_question">Question goes here</div>
+            <div class="faq_answer_container">
+               <div class="faq_answer">Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here </div>
+            </div>        
+     </div>
+    <div class="faq">
+       <div class="faq_question">Question goes here</div>
+            <div class="faq_answer_container">
+               <div class="faq_answer">Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here </div>
+            </div>        
+     </div>
+    <div class="faq">
+       <div class="faq_question">Question goes here</div>
+            <div class="faq_answer_container">
+               <div class="faq_answer">Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here </div>
+            </div>        
+     </div>
+  </div>
 						
 					</div>
 				</div>
 				<div class="col bgc-white">
+						<h5 class="mg-md tc-dark-jungle-green-2 h5-313-style">
+							....Data Protection Laws.. Νόμοι περί Προστασίας Δεδομένων....
+						</h5>
+						<p class="mg-md tc-dark-jungle-green-2 p-594-style">
+							....Supporting us with a donation, of any amount, means you are helping to safeguard our digital rights act and long-term sustainability. ..Η υποστήριξη με μια δωρεά, οποιουδήποτε ύψους, σημαίνει ότι συμβάλλετε στη διαφύλαξη των ενεργειών μας για τα ψηφιακά δικαιώματα και τη μακροπρόθεσμη βιωσιμότητα μας. ....
+						</p>
+						<div >
+							<div class="faq_container">
+    <div class="faq">
+       <div class="faq_question">.... What are data protection laws?..Τί είναι οι νόμοι περί προστασίας δεδομένων;....</div>
+            <div class="faq_answer_container">
+               <div class="faq_answer">....Data protection laws protect individuals with regards to the processing of their personal data by organizations. They define the responsibilities organizations have when processing personal data, and grant individual certain rights with regards to their data. ..Οι νόμοι περί προστασίας δεδομένων προστατεύουν τα άτομα σε σχέση με την επεξεργασία των προσωπικών τους δεδομένων από οργανισμούς. Καθορίζουν τις ευθύνες που έχουν οι οργανισμοί κατά την επεξεργασία προσωπικών δεδομένων και παραχωρούν σε άτομα ορισμένα δικαιώματα σε σχέση με τα δεδομένα τους. ....</div>
+            </div>        
+     </div>
+    <div class="faq">
+       <div class="faq_question">Question goes here</div>
+            <div class="faq_answer_container">
+               <div class="faq_answer">Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here </div>
+            </div>        
+     </div>
+    <div class="faq">
+       <div class="faq_question">Question goes here</div>
+            <div class="faq_answer_container">
+               <div class="faq_answer">Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here </div>
+            </div>        
+     </div>
+    <div class="faq">
+       <div class="faq_question">Question goes here</div>
+            <div class="faq_answer_container">
+               <div class="faq_answer">Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here Answer goes here </div>
+            </div>        
+     </div>
+  </div>
+							
+						</div>
 					</div>
 			</div>
+		<div class="row voffset-clear-md">
+						<div class="col bgc-white">
+							<div >
+								<br><br>
+								
+							</div>
+						</div>
+						<div class="col bgc-white">
+							</div>
+					</div>
 	</div>
 </div>
 <!-- bloc-membership-main END -->
 
-<!-- bloc-membership-details -->
-<div class="bloc bgc-light-gray tc-white bg-IObackground01-7-2 bg-b-edge l-bloc" id="bloc-membership-details">
-	<div class="container bloc-no-padding-lg bloc-no-padding-md bloc-no-padding-sm bloc-no-padding">
-	</div>
-</div>
-<!-- bloc-membership-details END -->
-
-<!-- bloc-255 -->
-<div class="bloc tc-white bgc-electric-blue bg-IObackground01-7-2 l-bloc" id="bloc-255">
+<!-- bloc-403 -->
+<div class="bloc tc-white bgc-light-gray l-bloc" id="bloc-403">
 	<div class="container bloc-no-padding-lg bloc-no-padding-md bloc-no-padding-sm bloc-no-padding">
 		<div class="row voffset-clear-md">
-			<div class="col bgc-anti-flash-white">
+			<div class="col bgc-platinum">
 				<h5 class="mg-md tc-dark-jungle-green-2">
-					....DISCLAIMER..ΑΠΟΠΟΙΗΣΗ ΕΥΘΥΝΗΣ....
+					....WANT YOU..ΣΕ ΘΕΛΟΥΜΕ....
 				</h5>
 			</div>
 			<div class="col bgc-lavender-gray">
@@ -453,15 +476,21 @@
 			</div>
 		</div>
 		<div class="row voffset-clear-md">
-			<div class="col bgc-anti-flash-white">
-				<p class="mg-md tc-dark-jungle-green-2 p-602-style">
-					....Please note that most of the data you include in your communication will be sent to us via the Internet. ..Παρακαλούμε λάβετε υπόψη ότι τα περισσότερα από τα δεδομένα που συμπεριλαμβάνετε στις επικοινωνίες σας μαζί μας θα σταλούν μέσω Διαδικτύου. ....
+			<div class="col bgc-platinum">
+				<h5 class="mg-md tc-dark-jungle-green-2 h5-367-style">
+					....Do you love what we do?.. Αγαπάς αυτό που κάνουμε;....
+				</h5>
+				<p class="mg-md tc-dark-jungle-green-2 p-669-style">
+					....As a non profit, we rely greatly on volunteers to undertake our research, public engagement and campaigning work. We encourage people with relevant interests and skills to jump in and become a closer part of our team.&nbsp;..Ως μη κερδοσκοπικός οργανισμός, βασιζόμαστε σε μεγάλο βαθμό σε εθελοντές για να αναλάβουμε το ερευνητικό μας έργο, τη δημόσια συμμετοχή και τις εκστρατείες μας. Ενθαρρύνουμε άτομα με ενδιαφέροντα και δεξιότητες σχετικές με τα ψηφιακά δικαιώματα να μπουν και να γίνουν πιο στενό μέρος της ομάδας μας. ....
 				</p>
-				<p class="mg-md tc-dark-jungle-green-2 p-603-style">
-					....Choosing to contact us via the methods listed above, you consent that, for the purpose of contacting you, responding to your query, directing you to the appropriate person within The Binary Organisation and providing you with publications or materials relating to our events and seminars, events, materials, links, files and media provided by us or third party institutions by such communication means as we deem appropriate (including by email, voice call or text message to any phone number that you provide to us), your name, phone number, country of residence and email address (your “Data”) may be shared, in electronic and/or physical form, with employees of The Binary Organisation in Greece and the European Union. Your Data will be processed for the purposes of providing services in connection with this website. If you do not provide us with data marked as mandatory in this form, or consent to the use/disclosure of your data as outlined above, we may be unable to contact you, respond to your query, direct you to the appropriate person or provide you with the materials or information outlined above. ..Επιλέγοντας να επικοινωνήσετε μαζί μας μέσω των μεθόδων που αναφέρονται παραπάνω, συναινείτε ότι, με σκοπό να επικοινωνήσουμε μαζί σας, να απαντήσουμε στο ερώτημά σας, να σας κατευθύνουμε στο κατάλληλο άτομο εντός του The Binary Organisation και να σας παρέχουμε δημοσιεύσεις ή υλικό σχετικά με τις εκδηλώσεις και τα σεμινάριά μας, εκδηλώσεις, υλικά, σύνδεσμοι, αρχεία και μέσα που παρέχονται από εμάς ή τρίτους φορείς με μέσα επικοινωνίας που κρίνουμε κατάλληλα (συμπεριλαμβανομένων μέσω email, φωνητικής κλήσης ή μηνύματος κειμένου σε οποιονδήποτε αριθμό τηλεφώνου που μας παρέχετε), το όνομά σας, τον αριθμό τηλεφώνου σας , η χώρα διαμονής και η διεύθυνση ηλεκτρονικού ταχυδρομείου (τα «Δεδομένα» σας) ενδέχεται να κοινοποιηθούν, σε ηλεκτρονική ή/και φυσική μορφή, με υπαλλήλους του The Binary Organisation στην Ελλάδα και την Ευρωπαϊκή Ένωση. Τα Δεδομένα σας θα υποβληθούν σε επεξεργασία για τους σκοπούς της παροχής υπηρεσιών σε σχέση με αυτόν τον ιστότοπο. Εάν δεν μας παρέχετε δεδομένα που έχουν επισημανθεί ως υποχρεωτικά σε αυτήν τη φόρμα ή συναινείτε στη χρήση/αποκάλυψη των δεδομένων σας όπως περιγράφεται παραπάνω, ενδέχεται να μην μπορέσουμε να επικοινωνήσουμε μαζί σας, να απαντήσουμε στο ερώτημά σας, να σας κατευθύνουμε στο κατάλληλο άτομο ή να παρέχουμε σας με το υλικό ή τις πληροφορίες που περιγράφονται παραπάνω. ....
+				<h5 class="mg-md tc-dark-jungle-green-2 h5-368-style">
+					....Will we love you back as much?.. Αναρωτιέσαι αν αγαπάμε αυτό που είσαι;....
+				</h5>
+				<p class="mg-md tc-dark-jungle-green-2 p-670-style">
+					....As a volunteer, you won&rsquo;t be making coffee or paperwork. Instead we like to work with individuals to give them ownership over a piece of our work. This might mean you take over responsibility of running our social media channels, or produce a research or policy paper, or develop key resources for one of our campaigns. Volunteers are treated as full members of the team, and play a meaningful role in our day to day work. ..Ως εθελοντής, δεν θα φτιάχνετε καφέ ή θα κάνετε γραφειοκρατική εργασία. Αντίθετα, μας αρέσει να συνεργαζόμαστε με άτομα για να τους δώσουμε την κυριότητα σε ένα κομμάτι της δουλειάς μας. Αυτό μπορεί να σημαίνει ότι αναλαμβάνετε την ευθύνη της διαχείρισης των καναλιών μας στα μέσα κοινωνικής δικτύωσης, ή την παραγωγή μιας έρευνας ή πολιτικής πολιτικής ή την ανάπτυξη βασικών πόρων για μία από τις καμπάνιες μας. Οι εθελοντές αντιμετωπίζονται ως πλήρη μέλη της ομάδας και παίζουν σημαντικό ρόλο στην καθημερινή μας εργασία. ....
 				</p>
-				<p class="mg-md tc-dark-jungle-green-2 p-602-style">
-					....Please refer to our Privacy Policy for further information. ..Παρακαλούμε ανατρέξτε στην Πολιτική Απορρήτου μας για περισσότερες πληροφορίες. ....
+				<p class="mg-md tc-dark-jungle-green-2 p-670-style">
+					....Please take a look at our current work as displayed on our website to get a sense of our current work before applying. We are interested in hearing from individuals with diverse academic, cultural and professional backgrounds. ..Αναφερθείτε στην σελίδα με το έργο όπως εμφανίζεται στον ιστότοπό μας για να κατανοήσετε την τρέχουσα εργασία μας πριν υποβάλετε αίτηση. Μας ενδιαφέρει να ακούμε άτομα με διαφορετικά ακαδημαϊκά, πολιτιστικά και επαγγελματικά υπόβαθρα.&nbsp;....
 				</p>
 			</div>
 			<div class="col bgc-lavender-gray">
@@ -480,59 +509,58 @@
 			</div>
 		</div>
 		<div class="row voffset-clear-md">
-			<div class="col bgc-anti-flash-white">
+			<div class="col bgc-white">
+				<h5 class="mg-md tc-dark-jungle-green-2">
+					....AWAIT YOU..ΣΕ ΠΕΡΙΜΕΝΟΥΜΕ....
+				</h5>
+				<p class="mg-md tc-dark-jungle-green-2">
+					....We have all our work and projects available for you..Έχουμε όλα μας τα έργα και τη δουλειά μας διαθέσιμα για 'σένα....
+				</p>
+				<p class="mg-md tc-dark-jungle-green-2 p-670-style">
+					....You are welcome to browse our site αnd our social channels to be informed of our work, guides, applications, videos, articles and audio content. The Binary &nbsp;produces and distributes content in a wide range of forms including feature films, short-form video, podcasts, interactive media and long-form articles, investigations, for its own digital properties and with partners. ..Είστε ευπρόσδεκτοι να περιηγηθείτε στον ιστότοπό μας και και στα κανάλια κοινωνικής δικτύωσης για να ενημερωθείτε για τις εργασίες, τους οδηγούς, τις εφαρμογές, τα βίντεο, τα άρθρα και το ηχητικό περιεχόμενο μας. Το Binary&nbsp;παράγει και διανέμει περιεχόμενο σε ένα ευρύ φάσμα μορφών, όπως φιλμ, βίντεο μικρού μήκους, podcast, διαδραστικά μέσα και άρθρα μεγάλης μορφής, έρευνες, για τις δικές του ψηφιακές πλατοφόρμες αλλά και με συνεργάτες. ....
+				</p>
 			</div>
 			<div class="col bgc-fuchsia">
 				<h5 class="mg-md tc-dark-jungle-green-2">
-					....WE NEED YOU, HONESTLY ..ΣΕ ΧΡΕΙΑΖΟΜΑΣΤΕ, ΕΙΛΙΚΡΙΝΑ ....
+					....NEED YOU, HONESTLY ..ΣΕ ΧΡΕΙΑΖΟΜΑΣΤΕ, ΕΙΛΙΚΡΙΝΑ ....
 				</h5>
 				<p class="mg-md tc-dark-jungle-green-2 p-216-style">
 					....Participation in the project is easy and simple. Support our work as a member with a small contribution of even €1. This vital support keeps us structurally independent, free from shareholders or oligarch funders and means we can keep our work and quality reporting open and available to all. ..Η συμμετοχή στο εγχείρημα είναι εύκολη κι απλή. Υποστήριξε το έργο μας ως μέλος με μια μικρή συμμετοχή ακόμη και €1. Αυτή η ζωτική υποστήριξη μάς κρατά δομικά ανεξάρτητους, απαλλαγμένους από μετόχους ή ολιγάρχες χρηματοδότες κι αυτό σημαίνει ότι μπορούμε να διατηρήσουμε το έργο και τις ποιοτικές αναφορές μας ανοιχτές και διαθέσιμες σε όλους. ....<br>
 				</p>
 				<p class="mg-md tc-dark-jungle-green-2 p-217-style">
-					....We believe in truth, information and Democracy. We understand that not everyone can afford to pay for this work, <a class="h-13px-link-underline" href="../membership/">but if you are, we need you</a>. ..Πιστεύουμε στην αλήθεια, την ενημέρωση και τη Δημοκρατία. Αντιλαμβανόμαστε ότι δεν είναι όλοι σε θέση να πληρώσουν γι' αυτό το έργο, <a class="h-13px-link-underline" href="../membership/">αλλά αν εσύ είσαι, σε χρειαζόμαστε</a>. ....<br>
+					....We believe in truth, information and Democracy. We understand that not everyone can afford to pay for this work, <a class="h-13px-link-underline" href="../home/">but if you are, we need you</a>. ..Πιστεύουμε στην αλήθεια, την ενημέρωση και τη Δημοκρατία. Αντιλαμβανόμαστε ότι δεν είναι όλοι σε θέση να πληρώσουν γι' αυτό το έργο, <a class="h-13px-link-underline" href="../home/">αλλά αν εσύ είσαι, σε χρειαζόμαστε</a>. ....<br>
 				</p>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- bloc-255 END -->
+<!-- bloc-403 END -->
 
 <!-- bloc-104 -->
-<div class="bloc tc-white bgc-electric-blue l-bloc" id="bloc-104">
+<div class="bloc tc-white bgc-light-gray" id="bloc-104">
 	<div class="container bloc-no-padding-lg bloc-no-padding-md bloc-no-padding-sm bloc-no-padding">
 		<div class="row voffset-clear-md">
 			<div class="col bgc-white">
-				<div >
-					<br><br>
-					
-				</div>
 			</div>
 			<div class="col bgc-white">
-				</div>
-		</div>
-		<div class="row voffset-clear-md">
-				<div class="col bgc-white">
-				</div>
-				<div class="col bgc-white">
-					<div class="row">
-						<div class="col bgc-anti-flash-white">
-							<h5 class="mg-md text-lg-center tc-dark-jungle-green-2">
-								<div class="text-center">
-									<a class="h3-tab-archives-link" href="../home/">....HOME..ΑΡΧΙΚΗ....</a>
-								</div>
-							</h5>
-						</div>
-						<div class="col bgc-fuchsia-2">
-							<h5 class="mg-md text-lg-center tc-dark-jungle-green-2">
-								<div class="text-center">
-									<a class="h3-tab-membership-link" href="../membership/">....MEMBERSHIP..ΣΥΜΜΕΤΟΧΗ....</a>
-								</div>
-							</h5>
-						</div>
+				<div class="row">
+					<div class="col bgc-anti-flash-white">
+						<h5 class="mg-md text-lg-center tc-dark-jungle-green-2">
+							<div class="text-center">
+								<a class="h3-tab-archives-link" href="../home/">....HOME..ΑΡΧΙΚΗ....</a>
+							</div>
+						</h5>
+					</div>
+					<div class="col bgc-fuchsia">
+						<h5 class="mg-md text-lg-center tc-dark-jungle-green-2">
+							<div class="text-center">
+								<a class="h3-tab-membership-link" href="../membership/">....MEMBERSHIP..ΣΥΜΜΕΤΟΧΗ....</a>
+							</div>
+						</h5>
 					</div>
 				</div>
 			</div>
+		</div>
 	</div>
 </div>
 <!-- bloc-104 END -->
@@ -543,7 +571,7 @@
 
 
 <!-- bloc-footer -->
-<div class="bloc bgc-electric-blue bg-IObackground01-7-2 d-bloc bg-t-edge" id="bloc-footer">
+<div class="bloc bgc-electric-blue bg-IObackground01-7-2 bg-t-edge l-bloc" id="bloc-footer">
 	<div class="container bloc-lg bloc-lg-lg">
 		<div class="row">
 			<div class="col-md-3 col-sm-6">
@@ -641,7 +669,7 @@
 
 
 <!-- Additional JS -->
-<script src="../js/all.js?4165"></script><!-- Additional JS END -->
+<script src="../js/all.js?109"></script><!-- Additional JS END -->
 
 
 </body>
