@@ -326,6 +326,18 @@ a:hover{text-decoration: none; cursor:pointer;}
 	margin-top:10px;
 	margin-bottom:20px;
 }
+img.mg-sm,img.mg-md,img.mg-lg{
+	margin-top: 0;
+}
+img.mg-sm{
+	margin-bottom:10px;
+}
+img.mg-md{
+	margin-bottom:30px;
+}
+img.mg-lg{
+	margin-bottom:50px;
+}
 
 /* = Buttons
 -------------------------------------------------------------- */
@@ -783,6 +795,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"NotoSansMono-Regular";
 	font-size:11px;
 	text-decoration:none;
+	color:#4F4F4F!important;
 }
 .h3-tab-archives-link{
 	font-family:"NotoSerifDisplay-Regular";
@@ -1117,6 +1130,27 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:bold;
 	background-color:#FEFFFF;
 }
+.but-influence-industry{
+	font-family:"NotoSansMono-Regular";
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+	height:100px;
+	text-align:center;
+	width:300px;
+	text-transform:none;
+	color:#341564!important;
+	background-color:#4F4F4F;
+	margin:20px 20px 20px 20px;
+	padding:20px 20px 20px 20px;
+}
+.but-influence-industry:hover{
+	text-decoration:none;
+	font-size:11px;
+	font-family:"NotoSansMono-Regular";
+	font-weight:bold;
+	background-color:#FEFFFF;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1207,6 +1241,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#FF00FF!important;
 	border-color:#FF00FF!important;
 }
+.wire-btn-davys-grey{
+	color:#5E5E5E!important;
+	border-color:#5E5E5E!important;
+}
 
 /* Link colour styles */
 
@@ -1261,6 +1299,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-IObackground01-7-2{
 	background-image:url("img/IObackground01_7_2.jpg");
+}
+.bg-IO-PROJ-CLICK-2K-alignedright-v1{
+	background-image:url("https://cdn.thebinary.org/images/projects/IO_PROJ_CLICK_2K_alignedright_v1.jpg");
+}
+.bg-IO-PROJ-INFLUENCE-2K-alignedright-v1{
+	background-image:url("https://cdn.thebinary.org/images/projects/IO_PROJ_INFLUENCE_2K_alignedright_v1.jpg");
+}
+.bg-IO-PROJ-PANOPTICON-2K-alignedright-v1{
+	background-image:url("https://cdn.thebinary.org/images/projects/IO_PROJ_PANOPTICON_2K_alignedright_v1.jpg");
 }
 
 
@@ -1397,6 +1444,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		height:100px;
 	}
 	.but-people{
+		margin:20px 20px 20px 20px;
+	}
+	.but-influence-industry{
 		margin:20px 20px 20px 20px;
 	}
 	
