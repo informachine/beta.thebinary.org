@@ -318,6 +318,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-sm{
 	margin-top:10px;
 	margin-bottom:5px;
@@ -426,6 +429,8 @@ button{
 	padding-bottom:0;
 }
 
+/* = Cards
+-------------------------------------------------------------- */
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
 	border-radius:0;
 }
@@ -1150,6 +1155,25 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"NotoSansMono-Regular";
 	font-weight:bold;
 	background-color:#FEFFFF;
+}
+.h3-475-style{
+	font-size:16px;
+}
+.p-highlight{
+	text-decoration:none;
+	background-color:transparent;
+}
+.p-term-round{
+	font-size:13px;
+}
+.p-2037-style{
+	font-size:13px;
+}
+.p-2035-style{
+	font-size:11px;
+}
+.p-2033-style{
+	font-size:13px;
 }
 
 /* = Colour
