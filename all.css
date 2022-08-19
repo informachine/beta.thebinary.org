@@ -74,9 +74,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 .bloc-lg{
 	padding:100px 20px;
 }
-.bloc-md{
-	padding:50px 20px;
-}
 .bloc-sm{
 	padding:20px;
 }
@@ -1178,6 +1175,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .p-bloc-816-style{
 	font-size:13px;
 }
+.h-36px-link{
+	font-family:"NotoSerifDisplay-Regular";
+	font-size:36px;
+	text-decoration:none;
+	color:#220A3E!important;
+}
+.h-36px-link:hover{
+	text-decoration:none;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1335,6 +1341,27 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bg-IO-PROJ-PANOPTICON-2K-alignedright-v1{
 	background-image:url("https://cdn.thebinary.org/images/projects/IO_PROJ_PANOPTICON_2K_alignedright_v1.jpg");
+}
+.bg-20220812-KIDS-APPS-SPYING{
+	background-image:url("https://cdn.thebinary.org/images/articles/20220812_KIDS_APPS_SPYING.jpg");
+}
+.bg-20220817-IAM-ALGORITHM{
+	background-image:url("https://cdn.thebinary.org/images/articles/20220817_IAM_ALGORITHM.jpg");
+}
+.bg-IO-ORG-ABOUT-v1-2x{
+	background-image:url("https://cdn.thebinary.org/images/projects/IO_ORG_ABOUT_v1_2x.jpg");
+}
+.bg-IO-ORG-CONTACT-v1-2x{
+	background-image:url("https://cdn.thebinary.org/images/projects/IO_ORG_CONTACT_v1_2x.jpg");
+}
+.bg-IO-ORG-MEMBERSHIP-v1-2x{
+	background-image:url("https://cdn.thebinary.org/images/projects/IO_ORG_MEMBERSHIP_v1_2x.jpg");
+}
+.bg-IO-ORG-FAQ-v1-2x{
+	background-image:url("https://cdn.thebinary.org/images/projects/IO_ORG_FAQ_v1_2x.jpg");
+}
+.bg-IO-PRJ-VOTERSGUIDE-v1-2x{
+	background-image:url("https://cdn.thebinary.org/images/projects/IO_PRJ_VOTERSGUIDE_v1_2x.jpg");
 }
 
 
