@@ -2,13 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://www.thebinary.org/home/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/IO_Manifesto_cover.png</image:loc>
 	<image:title>IO Manifesto Cover</image:title>
@@ -68,13 +64,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/frontpage/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/IO_logo_64_64.png</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -86,13 +78,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/article/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/afcd25bb-c030-46da-9888-e3fd18607153.jpeg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -104,13 +92,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/archives/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/IO_logo_64_64.png</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -122,13 +106,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/membership/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -140,13 +120,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/contact/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -158,13 +134,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/about/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -176,13 +148,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/vision/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -194,13 +162,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/declaration/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -212,13 +176,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/terms/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -230,13 +190,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/privacy/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -248,13 +204,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/faq/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -266,13 +218,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/ctrl-alt-del/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -284,13 +232,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/projects/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -302,13 +246,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/journalism/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -320,13 +260,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/click/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -338,13 +274,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/panopticon/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/IO_PRJ_PANOPTICON_v1_SOCIAL.jpg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -356,13 +288,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/conduct/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -374,13 +302,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/AegeanDocs_Official_Selection_2022_1000x500.jpg</image:loc>
 	<image:title>AegeanDocs_Official_Selection_2022_1000x500</image:title>
@@ -396,13 +320,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/organisation/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -414,13 +334,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/podcasts/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -432,13 +348,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/article-2/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/IO_Frame_of_Era_03_v7.jpg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -450,13 +362,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/the-influence-industry-project/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -468,13 +376,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/the-influence-industry-project-module-1/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -486,13 +390,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/the-influence-industry-project-module-2/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -504,13 +404,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/voters-guide/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/IO_PRJ_VOTERSGUIDE_v1_2x_SOCIAL.jpg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -522,13 +418,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/20220819-kids-apps-privacy/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/20220818_KIDS_APPS_SPYING_SOCIAL.jpg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
@@ -540,13 +432,9 @@
 </url>
 <url>
 	<loc>https://www.thebinary.org/20220819-iam-algorithm/</loc>
-	<lastmod>2022-08-19</lastmod>
+	<lastmod>2022-08-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://www.thebinary.org/img/IO_BINARY_LOGO_256_Colour.png</image:loc>
-	<image:title>logo</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://www.thebinary.org/img/20220818_IAM_ALGORITHM_SOCIAL.jpg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
