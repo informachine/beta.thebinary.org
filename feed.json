@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "demo.thebinary.org",
+    "description": "",
+    "home_page_url": "https://beta.thebinary.org",
+    "feed_url": "https://beta.thebinary.org/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Ilias Giannakopoulos"
+    },
+    "items": [
+        {
+            "id": "https://beta.thebinary.org/post-1/",
+            "url": "https://beta.thebinary.org/post-1/",
+            "title": "post 1",
+            "summary": "....post EN..post EL....",
+            "content_html": "<p>....post EN..post EL....</p>",
+            "author": {
+                "name": "Ilias Giannakopoulos"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-10-09T20:13:47+03:00",
+            "date_modified": "2024-10-09T20:17:41+03:00"
+        }
+    ]
+}
